@@ -4,8 +4,11 @@ class desktopbody extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return const Scaffold(
+    return Scaffold(
       backgroundColor: Colors.orange,
+        appBar: AppBar(
+          title: Text("Desktop page"),
+        )
     );
   }
 }

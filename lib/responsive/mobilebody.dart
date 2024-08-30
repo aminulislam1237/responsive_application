@@ -7,7 +7,7 @@ class moiblilebody extends StatelessWidget {
     return Scaffold(
       backgroundColor: Colors.blue,
       appBar: AppBar(
-        title: Text("It's phone page"),
+        title: Text("Phone page"),
       )
     );
   }

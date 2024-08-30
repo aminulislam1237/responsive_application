@@ -8,10 +8,10 @@ responsivelayout({required this.desktopbody,required this.tabletbody,required th
   Widget build(BuildContext context) {
     return LayoutBuilder(
         builder: (context,constraints){
-          if(constraints.maxHeight<620) { //be noted it's height,not weight.
+          if(constraints.maxWidth<620) { //be noted it's height,not weight.
             return mobilebody;
           }
-          else if(constraints.maxHeight<768){
+          else if(constraints.maxWidth<1080){
             return tabletbody;
           }
           else{
